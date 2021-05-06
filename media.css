@@ -1,0 +1,40 @@
+﻿*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-phone: ;
+    --font-tab-portrait: ;
+    --font-tab-landscape: ;
+    --font-big-deskktop: ;
+}
+
+html {
+    font-size: 62.5%;
+}
+/*@media screen and (max-width: 37.5em) {*/ 
+/*600px*/
+    /*html {
+        font-size: 50%;
+    }
+}*/
+@media screen and (max-width: 75em) {
+/*1200px*/
+    html {
+        font-size: 56.25%;
+    }
+}
+@media screen and (max-width: 56.25em) {
+    /*900px*/
+    html {
+        font-size: 50%;
+    }
+}
+@media screen and (min-width: 112.5em) {
+/*1800px*/
+    html {
+        font-size: 75%;
+    }
+}
